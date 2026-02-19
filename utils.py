@@ -10,11 +10,14 @@ class LectureHall():
         
 class Course():
     def __init__(
-        self, demand: int,
+        self,
+        demand: int,
+        type: str,
         n_sections: int,
         n_hours: int
     ):
         self.demand = demand
+        self.type = type # first/second/third/fourth/TM/MT
         self.n_sections = n_sections
         self.n_hours = n_hours
 
