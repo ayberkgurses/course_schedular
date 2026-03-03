@@ -1,2 +1,2 @@
 course schedular experimental project 
-#### camel
+#### pink freud
